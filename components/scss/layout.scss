@@ -1,0 +1,50 @@
+// components/layout.scss
+
+@import "../../theme/theme";
+
+.Layout {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+//@media (min-width: 800px) {
+//
+//}
+
+  .Content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: $secondary;
+    color: $on-secondary;
+    font-family: $core-font;
+
+    a {
+      color: inherit;
+    }
+
+    input {
+      padding: 10px 20px;
+    }
+
+    form {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 200px;
+      flex-wrap: wrap;
+    }
+
+    //li {
+    //  padding: 10px 20px;
+    //  list-style-type: none;
+    //  border-radius: 20px;
+    //  font-size: 40px;
+    //}
+
+  }
+}

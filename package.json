@@ -1,0 +1,30 @@
+{
+  "name": "Stud.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.11",
+    "@zeit/next-sass": "^1.0.1",
+    "next": "^9.5.5",
+    "node-sass": "^4.14.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-leaflet": "^2.7.0",
+    "swr": "^0.1.18",
+    "whatwg-fetch": "^3.4.1"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  }
+}
